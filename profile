@@ -25,11 +25,18 @@ if [ -d /etc/profile.d ]; then
   done
   unset i
 fi
-
 # set java environment JAVA运行环境
 export JAVA_HOME=/usr/lib/jvm/jdk-9.0.1 
 export JRE_HOME=/usr/lib/jvm/jdk-9.0.1/jre
 export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 
 #set tomcat 环境变量
-export CATALINA_HOME=/usr/local/tomcat 
+export CATALINA_HOME=/usr/local/tomcat
+
+#set gradle Path
+#export GRADLE_HOME=/usr/local/gradle-4.1
+#export PATH=$GRADLE_HOME/bin:$PATH 
+
+#set node (and nodejs) path
+export NODE_HOME=/usr/local/node-v8.11.1
+export PATH=$NODE_HOME/bin:$PATH
