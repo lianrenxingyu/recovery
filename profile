@@ -37,6 +37,9 @@ export CATALINA_HOME=/usr/local/tomcat
 #export GRADLE_HOME=/usr/local/gradle-4.1
 #export PATH=$GRADLE_HOME/bin:$PATH 
 
+#set android platform-tools 并没有起效果
+export PATH=$/home/chenggong/sdk/platform-tools:$PATH
+
 #set node (and nodejs) path
 export NODE_HOME=/usr/local/node-v8.11.1
 export PATH=$NODE_HOME/bin:$PATH
