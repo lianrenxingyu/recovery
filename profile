@@ -43,3 +43,7 @@ export PATH=$/home/chenggong/sdk/platform-tools:$PATH
 #set node (and nodejs) path
 export NODE_HOME=/usr/local/node-v8.11.1
 export PATH=$NODE_HOME/bin:$PATH
+
+#set node module path
+export NODE_PATH=/usr/local/node-v8.11.1/lib/node_modules
+export PATH=$NODE_PATH:$PATH

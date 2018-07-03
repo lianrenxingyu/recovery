@@ -1,0 +1,22 @@
+nodejs 的安装,官网下载的node安装包,不是源码包,tar.gz文件
+解压后通过配置路径就相当于已经安装好node
+在/etc/profile文件中配置路径,node软件就是直接在
+类似于 
+export NODE_HOME=/usr/local/node-v8.11.1
+export PATH=$NODE_HOME/bin:$PATH
+之后存在node命令,npm命令,并且npm版本比较新,
+
+
+通过
+sudo apt-get install npm
+sudo apt-get install nodejs 
+两种方式直接安装的npm版本较老,需要手动更新,更新过程中出现奇葩的问题,不推荐,如果更新首先更新nodejs,再更新npm.
+
+
+更新
+npm更新:npm update -g
+
+
+IM即时服务器端技术
+用node，socket.io+mongodb
+
